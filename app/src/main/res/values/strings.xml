@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+
+    <string name="textlink">
+        <a href="https://github.com/farhanatrah/BMI-Calculator.git">https://github.com/farhanatrah/BMI-Calculator.git</a>
+    </string>
+    <string name="link" />
+</resources>

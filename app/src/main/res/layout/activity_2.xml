@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A5F2F3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="700dp"
+        android:padding="20dp"
+        android:id="@+id/contentlayout"
+        android:background="@color/white"
+        android:layout_centerInParent="true">
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="About Page"
+        android:id="@+id/aboutPage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Developer's Information"
+        android:id="@+id/developer"
+        android:layout_below="@+id/aboutPage"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="15dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16.5sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:text="Group: RCS2405B"
+        android:id="@+id/group"
+        android:layout_below="@+id/developer"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="5dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16.5sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:text="Course Code: ICT602"
+        android:id="@+id/cc"
+        android:layout_below="@+id/group"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="5dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/ln"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="50dp"
+        android:text="Lecturer's Name: Mohammad Hafiz Bin Ismail"
+        android:textColor="@color/black"
+        android:textSize="16.5sp"
+        android:textStyle="normal">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Group Member:"
+        android:id="@+id/gm"
+        android:layout_below="@+id/ln"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="10dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:text="1: Nurul Farhana Natrah Binti Johari (2020971051)"
+        android:id="@+id/m"
+        android:layout_below="@+id/gm"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="5dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:text="2: Nuralya Maisarah Binti Kamarulzaman (2020968975)"
+        android:id="@+id/mm"
+        android:layout_below="@+id/m"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="5dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Body Mass Index"
+        android:id="@+id/bmi"
+        android:layout_below="@+id/mm"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="10dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bmi"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="50dp"
+        android:text="Body Mass Index (BMI) is a measurement of a person’s weight with respect to their height. It is more of an indicator than a direct measurement of a person’s total body fat."
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="normal">
+    </TextView>
+
+    <TextView
+        android:id="@+id/cr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="50dp"
+        android:text="Copyright Statement"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:text="Copyright (c) 2021 BMI Calculator."
+        android:id="@+id/ccr"
+        android:layout_below="@+id/cr"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="5dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:text="All right reserved."
+        android:id="@+id/ccrr"
+        android:layout_below="@+id/ccr"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="5dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ccrr"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="50dp"
+        android:text="@string/link"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="17sp"
+        android:textStyle="italic">
+    </TextView>
+
+
+</RelativeLayout>
